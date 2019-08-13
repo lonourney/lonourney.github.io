@@ -65,7 +65,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: a197f458c7a7fd943fb9                            #生成的clientID
   clientSecret: 27e4de550644f9a607491222532aa1cfa66a6f6b    #生成的clientSecret
-  repo: lonourneytalk    #仓库名称
+  repo: lonourney.github.io   #仓库名称
   owner: lonourney    #github用户名
   admin: lonourney
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
