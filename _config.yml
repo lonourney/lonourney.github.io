@@ -112,3 +112,7 @@ friends: [
         href: "https://developer.apple.com/"
     }
 ]
+
+
+plugins:
+  - jekyll-sitemap
