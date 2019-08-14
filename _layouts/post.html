@@ -81,31 +81,20 @@ layout: default
                     {% endif %}
                 </ul>
 
+                <div id="container"></div>
+                <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+                <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
                 <script>
-                    var title_length ='{{ page.title }}'.length                 
-                    if (title_length < 50 && '{{ page.title }}'.indexOf(",")== -1){
-                        var gitment = new Gitment({
-                        id: '{{ page.title }}', 
-                        owner: 'lonourney',
-                        repo: 'lonourney.github.io',
-                        oauth: {
-                            client_id: 'a197f458c7a7fd943fb9',
-                            client_secret: '27e4de550644f9a607491222532aa1cfa66a6f6b',
-                        },
-                    });}
-                    else
-                    {
-                    var gitment = new Gitment({
-                        id: '{{ page.date }}',              
-                        title: '{{ page.title }}',
-                        owner: 'lonourney',
-                        repo: 'lonourney.github.io',
-                        oauth: {
-                            client_id: 'a197f458c7a7fd943fb9',
-                            client_secret: '27e4de550644f9a607491222532aa1cfa66a6f6b',
-                        },
-                    });}
-                    gitment.render('gitmentContainer')
+                var gitment = new Gitment({
+                  id: 'page.date', // 可选。默认为 location.href
+                  owner: ' lonourney',
+                  repo: 'lonourney.github.io',
+                  oauth: {
+                    client_id: 'a197f458c7a7fd943fb9',
+                    client_secret: '27e4de550644f9a607491222532aa1cfa66a6f6b',
+                  },
+                })
+                gitment.render('container')
                 </script>
 
             </div>  
