@@ -74,8 +74,8 @@ kramdown:
 gitment:
   enable: true
   id: 'page.date' #页面 ID, 可选。默认为 location.href
-  owner: lonourney
-  repo: lonourney.github.io #存储评论的 repo
+  owner: 'lonourney'
+  repo: 'lonourney.github.io' #存储评论的 repo
   client_id: 'a197f458c7a7fd943fb9' #你的 Client ID
   client_secret: '27e4de550644f9a607491222532aa1cfa66a6f6b' 
 
