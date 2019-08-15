@@ -1,9 +1,10 @@
 ---
 layout:     post
-title:      今日故事 19.08.15
+title:      test for date and image
 subtitle:   回家倒计时30天
 date:       2019-08-16 00:51:40
 author:     lonourney
+header-img: img/post-bg-festival.jpg
 catalog: true
 tags:
     - blog
